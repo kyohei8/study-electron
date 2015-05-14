@@ -1,4 +1,4 @@
-# Electron
+# Electron Study Note
 
 http://electron.atom.io/
 
