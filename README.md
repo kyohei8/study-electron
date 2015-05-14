@@ -44,4 +44,4 @@ $ npm init
 $ npm install electron-prebuilt --save-dev
 ```
 
-→ ex1へ
+→ [ex1へ](ex1)
