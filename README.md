@@ -7,6 +7,7 @@ http://electron.atom.io/
 * クロスプラットフォーム(mac, windows, Linux)対応
 * オープンソース(maintained by GitHub and an active community.)
 * 旧名 Atom-shell
+* Electron自体はC++で書かれている
 
 ## 機能
 * Automatic updates

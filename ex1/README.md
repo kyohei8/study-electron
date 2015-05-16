@@ -85,8 +85,10 @@ app.on('ready', function() {
 });
 ```
 
-electron をビルド
+electron をビルドして確認
 
 ```
 $ electron .
 ```
+
+→ [ex2へ](ex2)
