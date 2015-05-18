@@ -7,7 +7,7 @@ http://electron.atom.io/
 * クロスプラットフォーム(mac, windows, Linux)対応
 * オープンソース(maintained by GitHub and an active community.)
 * 旧名 Atom-shell
-* Electron自体はC++で書かれている
+* Electronはコア部分はC++とPythonで書かれている
 
 ## 機能
 * Automatic updates
@@ -21,6 +21,7 @@ http://electron.atom.io/
 * slack https://slack.com/
 * visual studio code https://code.visualstudio.com/
 * Avocode http://avocode.com/ (psd->html tool)
+* kobito http://kobito.qiita.com/
 * etc..
 
 ## Get started

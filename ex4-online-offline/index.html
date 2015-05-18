@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    .on{
+      color:green;
+    }
+    .off{
+      color:red;
+    }
+  </style>
+</head>
+<body>
+  <h2> online / offline event </h2>
+  <p> status: <span id="status" class=""></span></p>
+  <script>
+    var ipc = require('ipc');
+    var stat = document.getElementById('status');
+    
+    var changeStatus = function(){
+      if(navigator.onLine){
+        stat.classList.add('on');
+        stat.classList.remove('off');
+        stat.textContent = 'online';
+      }else{
+        stat.classList.add('off');
+        stat.classList.remove('on');
+        stat.textContent = 'offline';        
+      }
+    };
+    
+    var updateOnlineStatus = function() {
+      ipc.send('online-status-changed', navigator.onLine);
+      changeStatus();
+    };
+    updateOnlineStatus();
+    
+    window.addEventListener('online',  updateOnlineStatus);
+    window.addEventListener('offline',  updateOnlineStatus);
+
+  </script>  
+</body>
+</html>
