@@ -47,4 +47,5 @@ window.addEventListener('offline',  function(){
 });
 
 ```
-
+---
+ref: https://github.com/atom/electron/blob/master/docs/tutorial/online-offline-events.md
