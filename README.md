@@ -3,7 +3,8 @@
 http://electron.atom.io/
 
 ## Electronとは
-* node.js(io.js) + ChromiumでWebテクノロジー(html + css + javascript)でデスクトップアプリケーションを作れるもの
+* node.js(io.js) + ChromiumでWebテクノロジー(html + css + javascript)でデスクトップアプリケーションを作れるもの  
+→ ブラウザのAPIとnodeのAPIを組み合わせて使える
 * クロスプラットフォーム(mac, windows, Linux)対応
 * オープンソース(maintained by GitHub and an active community.)
 * 旧名 Atom-shell
