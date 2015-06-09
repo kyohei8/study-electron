@@ -33,7 +33,7 @@ $ electron .
 
 ## with node.js API
 
-Chromiunを利用しているので、node.jsのAPIを利用できる
+nw.js(Chromiun)を利用しているので、node.jsのAPIを利用できる
 * require
 * node.js組み込み変数・クラス
 等
